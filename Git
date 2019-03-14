@@ -1,0 +1,19 @@
+Git 브랜치 
+브랜치란 무엇? 
+
+
+git작성된 소스코드 로컬저장소에 commit(저장)하기.
+
+git init을 통해서 git을 통해서 관리하는 디렉토리를 만들었다면 이제는 해당 디렉토리에서 작업하고 있는 코드들을 
+로컬 저장소에 저장을 해야하는데 이 과정을 commit라고 한다.
+
+git remote add origin 원격저장소URL
+git push -u origin master
+
+PUSH: 로컬 => 원격
+PULL: 원격 => 햐로컬
+
+$ git status 현재 수정된 파일 확인
+$ git add .  모든 파일 커밋 
+$ git commit -m "VisualStudioCommit Test"
+$ git log 커밋된 내용 확인 
